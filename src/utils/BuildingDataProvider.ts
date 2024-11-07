@@ -20,7 +20,7 @@ const useBuildingData = () => {
         console.log(jsonData); // logs the data to the console
         setBuildingData(jsonData);
       } catch (error) {
-        console.log(error, "error"); // logs the error message to the console
+        console.log(error, "error"); // logs the error message to the 
       }
     };
     fetchData();
